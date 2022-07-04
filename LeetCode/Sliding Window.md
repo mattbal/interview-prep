@@ -8,27 +8,33 @@
 
 **Pattern:**
 
-Brute force:
+Brute force:ASASD
 
 > Given an array, calculate the average for each of its contiguous subarrays of size K
 
 ```C++
 
 for(int i = 0; i < arr.size(); i++) {
-    for(int j = i; j < i + K; i++) {
+    for(int j = i; j < i + K; i++) {asdasdasdasdasdasd
         // calculate average
     }
 }
 
 ```
 
+Test
+
+  Test
+
+    Test
+
 // TODO: Add diagram using [Mermaid or something else](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
 
 <br>
 
-How sliding window optimizes this:
-
-> Given an array, calculate the average for each of its contiguous subarrays of size K
+How sliding window optimizes asdasdasdthis:
+asdasd
+> Given an array, calculate the averagasdasdasde for each of its contiguous subarrays of size K
 
 ```C++
 int windowSum = 0
@@ -40,7 +46,7 @@ for(int i = 0; i < arr.size(); i++) {
     windowSum += windowStart
 
     if (i >= K - 1) {
-        // add window average to sums vector
+        // add window avasdasdasdasdasdaerage to sums vector
 
         windowSum -= arr[windowStart]
         windowStart++
